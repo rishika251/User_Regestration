@@ -13,7 +13,7 @@ public class UserRegestration {
 	        do {
 	            System.out.println("Enter Your Choice: ");
 	            System.out.println("1: Validate name. \n0: Exit.");
-	            System.out.println("1: Validate First Name. \n2: Validate Last Name.\n3: Validate Email_Id.\n4: Validate Mobile Number.");
+	            System.out.println("1: Validate First Name. \n2: Validate Last Name.\n3: Validate Email_Id.\n");
 	            choice = sc.nextInt();
 
 	            switch (choice) {
@@ -27,9 +27,7 @@ public class UserRegestration {
 	                    operations.validEmail_Id();
 	                    break;
 
-	                case 4:
-	                    operations.validMobileFormat();
-	                    break;
+	                
 
 
 	                default:
